@@ -10,7 +10,7 @@ Working directory : ...\projectPath                        (current project path
 ```
 
 #### Copy debug_robot.py file to your project
-add lib files and compiled files in python PATH variable
+add lib files and build output directory in python PATH variable
 ```
 # set classpath for jar file libraries
 JAVA_LIB = os.path.join(root_path, 'lib')
@@ -24,5 +24,8 @@ for lib in os.listdir(JAVA_LIB):
 sys.path.append(os.path.join(root_path, 'output'))
 
 ```
+#### Set breakpoints on source java code
+
 
 #### Run/Debug configuration in IntelliJ
+check java variables & stacks when pausing on breakpoint
