@@ -9,3 +9,8 @@ Program arguments : debug_robot.py                         (entry file to debug 
 Working directory : ...\projectPath                        (current project path)
 ```
 
+#### Copy debug_robot.py file to your project
+change source code path in python file
+
+
+#### Run/Debug configuration in IntelliJ
