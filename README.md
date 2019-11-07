@@ -1,11 +1,11 @@
-# debug-java-lib-IntelliJ
-how to debug java libraries of Robotframework in IDEA Intellij IDE
+# debug-RobotFramework-In-IntelliJ
+how to debug Robotframework test cases with Jython jar file in IDEA Intellij IDE
 
-#### Create JAR application Configuration in IntelliJ
+#### Create Configuration in IntelliJ
 ```
-Path to JAR:        C:\jython2.7.0\jython.jar
-VM options :        -Dlog4j.configuration=log4j.properties
-Program arguments : debug_robot.py
-Working directory : ...\projectPath
+Path to JAR:        C:\jython2.7.0\jython.jar              (jython jar file in jython installation directory)
+VM options :        -Dlog4j.configuration=log4j.properties (not necessary)
+Program arguments : debug_robot.py                         (entry file to debug specific test case filtered by tag name)
+Working directory : ...\projectPath                        (current project path)
 ```
 
