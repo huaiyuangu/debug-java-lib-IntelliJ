@@ -10,7 +10,7 @@ Working directory : ...\projectPath                        (current project path
 ```
 
 #### Copy debug_robot.py file to your project
-change source code path in python file
+add lib files and compiled files in python PATH variable
 ```
 # set classpath for jar file libraries
 JAVA_LIB = os.path.join(root_path, 'lib')
